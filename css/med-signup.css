@@ -1,0 +1,25 @@
+/*---- mediam --- */
+@media all and (max-width:992px){
+    section{
+        padding: 0 ;
+        }
+    .sec-container .img img{
+      
+        width: 100% !important;
+    }
+    .sec-container{
+        width: 90% !important;
+    }
+    .form,.img{
+        padding: 5px !important;
+    }
+    .sec-container h1{
+        font-size: 45px;
+    }
+    .sec-container h3{
+        font-size: 45px;
+    }
+    .hint{
+      font-size: 20px;
+    }
+}

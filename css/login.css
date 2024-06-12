@@ -1,0 +1,130 @@
+section{
+    min-height: 100vh;
+    background-image: url(../img/2212.w026.n002.2823B.p1.2823.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+.sec-container{
+    background-color: rgb(232, 192, 255);
+  width: 80%;
+    box-shadow: 0px 0px 15px 8px;
+    border-radius: 30px;
+  }
+  .sec-container h1{
+    padding: 10px 0px;
+    font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-size: 55px;
+  background-image: linear-gradient(
+  125deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(286deg 100% 94%) 8%,
+  hsl(285deg 100% 89%) 16%,
+  hsl(283deg 100% 83%) 26%,
+  hsl(282deg 100% 77%) 36%,
+  hsl(281deg 100% 70%) 46%,
+  hsl(281deg 70% 62%) 57%,
+  hsl(281deg 51% 53%) 68%,
+  hsl(281deg 47% 45%) 79%,
+  hsl(281deg 50% 37%) 90%,
+  hsl(281deg 53% 29%) 100%
+);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(90, 35, 115);
+  }
+
+  .sec-container h3{
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(90, 35, 115);
+  }
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .form input{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 18px;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin: 12px 0;
+    border: 3px solid rgb(90, 35, 115);
+    color: rgb(90, 35, 115);
+}
+
+.form-control:focus {
+    background-color:white;
+    border: 3px solid rgb(90, 35, 115);
+    box-shadow: 0px 0px 14px 4px rgb(207, 103, 255);
+    outline: 0;
+}
+
+.hint{
+    font-size: 23px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    color: rgb(90, 35, 115);
+    margin: 5px 0px;
+  }
+  #signUplink{
+  color: rgb(164, 79, 203);
+  }
+
+.form button{
+    padding: 5px 40px;
+    border: 2px solid rgb(90, 35, 115);
+    border-radius: 50px;
+    background-image: linear-gradient(
+        220deg,
+        hsl(281deg 53% 29%) 0%,
+        hsl(281deg 48% 40%) 16%,
+        hsl(281deg 47% 51%) 27%,
+        hsl(281deg 72% 62%) 37%,
+        hsl(281deg 100% 73%) 46%,
+        hsl(283deg 100% 82%) 54%,
+        hsl(285deg 100% 90%) 62%,
+        hsl(287deg 100% 97%) 69%,
+        hsl(285deg 23% 86%) 77%,
+        hsl(284deg 23% 67%) 84%,
+        hsl(283deg 24% 48%) 92%,
+        hsl(281deg 53% 29%) 100%
+      );
+    margin: 10px 0px;
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(65, 4, 98);
+}
+
+
+.msg,.inputs{
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  color: rgb(138, 5, 5);
+}
+
+.success{
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+  color: rgb(167, 59, 234);
+}

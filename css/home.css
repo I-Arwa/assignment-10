@@ -1,0 +1,153 @@
+
+
+
+
+section{
+    min-height: 100vh;
+    background-image: url(../img/2212.w026.n002.2823B.p1.2823.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.sec-container{
+    background-color: rgb(199, 198, 255);
+    box-shadow: 0px 0px 15px 8px;
+    border-radius: 30px;
+    width: 80%;
+ 
+  }
+
+  .sec-container h3{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(57, 26, 128);
+    }
+
+    .sec-container .img p{
+        font-size: 30px;
+        font-family: "Concert One", sans-serif;
+        font-weight: 400;
+    }
+
+    .img button{
+        padding: 5px 40px;
+    border: 2px solid rgb(57, 26, 128);
+    border-radius: 50px;
+    background-image: linear-gradient(
+  45deg,
+  hsl(280deg 46% 19%) 0%,
+  hsl(273deg 31% 29%) 5%,
+  hsl(267deg 24% 40%) 12%,
+  hsl(261deg 21% 51%) 19%,
+  hsl(254deg 29% 63%) 28%,
+  hsl(248deg 44% 75%) 37%,
+  hsl(254deg 29% 63%) 49%,
+  hsl(261deg 21% 51%) 62%,
+  hsl(267deg 24% 40%) 75%,
+  hsl(273deg 31% 29%) 89%,
+  hsl(280deg 46% 19%) 100%
+);
+
+color: rgb(57, 26, 128);
+font-family: "Acme", sans-serif;
+font-weight: 400;
+font-size: 30px;
+
+-webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+
+    }
+
+  .sec-game{
+    text-align: center;
+    }
+
+
+    .title{
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-size: 55px;
+        color: white;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: rgb(57, 26, 128);
+    
+    }
+    .title span{
+        color: rgb(57, 26, 128);
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: white;
+    }
+
+
+
+    .parent{
+        display: flex;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        }
+
+
+        .square{
+            width: calc(100%/3 - 10px);
+            height:140px;
+           box-shadow: inset 0px 0px 30px -13px rgb(57, 26, 128);
+           
+        border: 1px solid rgb(57, 26, 128);
+           
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-size: 90px;
+           color: rgb(57, 26, 128);
+           transition: .5s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+          
+        .square:hover{
+            background-color: rgba(224, 122, 238, 0.497);
+            cursor: pointer;
+        }
+
+        .sec-game button{
+            padding: 3px 40px;
+            border: 2px solid rgb(116, 7, 171);
+            border-radius: 50px;
+            margin: 10px 0px;
+            font-family: "Acme", sans-serif;
+          font-weight: 400;
+          font-size: 25px;
+          background-image: linear-gradient(
+  110deg,
+  hsl(281deg 100% 55%) 0%,
+  hsl(272deg 100% 69%) 9%,
+  hsl(263deg 100% 77%) 15%,
+  hsl(255deg 100% 83%) 20%,
+  hsl(247deg 100% 89%) 25%,
+  hsl(240deg 92% 95%) 29%,
+  hsl(247deg 100% 89%) 34%,
+  hsl(255deg 100% 83%) 40%,
+  hsl(263deg 100% 77%) 49%,
+  hsl(272deg 100% 69%) 63%,
+  hsl(281deg 100% 55%) 100%
+);
+          color: rgb(116, 7, 171);
+
+        }
+
+
+   
+
+
+

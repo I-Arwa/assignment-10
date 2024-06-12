@@ -1,0 +1,34 @@
+
+/*---- mediam --- */
+@media all and (max-width:992px){
+    section{
+        padding: 0 ;
+        }
+    .sec-container .img img{
+      
+        width: 100% !important;
+    }
+    .sec-container{
+        width: 90% !important;
+    }
+    .img{
+        padding: 5px !important;
+    }
+    .sec-game{
+        margin: 15px !important;
+    }
+
+    .square{
+        height: 130px;
+        font-size: 85px;
+    }
+
+    .sec-container h3{
+        font-size: 45px;
+    }
+    .sec-container .img h3{
+        font-size: 30px;
+    }
+
+}
+
